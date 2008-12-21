@@ -1,0 +1,16 @@
+This is a live-helper configuration folder.
+
+Type «sudo lh_build» to create an iso image.
+
+I use apt-cacher-ng to download the packages. You may need to change the following lines for your setup:
+chroot_sources/kde4.chroot:1:deb http://[::ffff:127.0.0.1]:3142/pkg-kde.alioth.debian.org/kdetrunk/ unreleased main
+chroot_sources/kde4.chroot:2:deb http://127.0.0.1:3142/debian/ sid main
+bootstrap:37:LH_MIRROR_CHROOT="http://127.0.0.1:3142/debian/"
+bootstrap:41:LH_MIRROR_CHROOT_SECURITY="http://[::ffff:127.0.0.1]:3142/security.debian.org/"
+bootstrap:32:# (Default: http://localhost:3142/debian/)
+bootstrap:33:LH_MIRROR_BOOTSTRAP="http://localhost:3142/debian/"
+
+
+If your architecture is not amd64 you'll need to change the following lines:
+bootstrap:5:LH_ARCHITECTURE="amd64"
+chroot:33:LH_LINUX_FLAVOURS="amd64"
