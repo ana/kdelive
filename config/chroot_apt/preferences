@@ -1,15 +1,7 @@
-Package: xserver-xorg-video-vesa
-Pin: release a=lenny
-Pin-Priority: 1001
-
-Package: *
-Pin: release a=lenny
-Pin-Priority:1000
-
 Package: *
 Pin: release a=unstable
-Pin-Priority: 998
+Pin-Priority: 997
 
 Package: *
 Pin: release a=unreleased
-Pin-Priority: 999
+Pin-Priority: 1000

@@ -26,7 +26,7 @@ LH_BOOTSTRAP_KEYRING=""
 
 # $LH_DISTRIBUTION: select distribution to use
 # (Default: lenny)
-LH_DISTRIBUTION="lenny"
+LH_DISTRIBUTION="sid"
 
 # $LH_MIRROR_BOOTSTRAP: set mirror to bootstrap from
 # (Default: http://localhost:3142/debian/)
