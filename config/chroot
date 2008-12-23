@@ -30,7 +30,7 @@ LH_LANGUAGE="en"
 
 # $LH_LINUX_FLAVOURS: set kernel flavour to use
 # (Default: autodetected)
-LH_LINUX_FLAVOURS="amd64"
+LH_LINUX_FLAVOURS="486 686"
 
 # $LH_LINUX_PACKAGES: set kernel packages to use
 # (Default: autodetected)
@@ -42,7 +42,7 @@ LH_PACKAGES="loop-aes-utils"
 
 # $LH_PACKAGES_LISTS: set package list to install
 # (Default: standard standard-x11 kde4)
-LH_PACKAGES_LISTS="kde4 kde4-dbg kde4-extras"
+LH_PACKAGES_LISTS="kde4 kde4-extras"
 
 # $LH_TASKS: set tasks to install
 # (Default: empty)
