@@ -1,2 +1,3 @@
 deb http://[::ffff:127.0.0.1]:3142/pkg-kde.alioth.debian.org/kdetrunk/ unreleased main
+deb http://[::ffff:127.0.0.1]:3142/debian/ experimental main
 
