@@ -1,0 +1,2 @@
+apt-get install xorg-core dbus hal ntfs-3g
+apt-get install -t experimental kde4-minimal

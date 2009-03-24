@@ -1,7 +1,3 @@
 Package: *
-Pin: release a=unstable
-Pin-Priority: 997
-
-Package: *
-Pin: release a=unreleased
-Pin-Priority: 1000
+Pin: release a=experimental
+Pin-Priority: 101
