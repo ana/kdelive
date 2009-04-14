@@ -30,19 +30,19 @@ LH_DISTRIBUTION="sid"
 
 # $LH_MIRROR_BOOTSTRAP: set mirror to bootstrap from
 # (Default: http://localhost:3142/debian/)
-LH_MIRROR_BOOTSTRAP="http://localhost:3142/debian/"
+LH_MIRROR_BOOTSTRAP="http://localhost:9999/debian/"
 
 # $LH_MIRROR_CHROOT: set mirror to fetch packages from
 # (Default: http://ftp.us.debian.org/debian/)
-LH_MIRROR_CHROOT="http://127.0.0.1:3142/debian/"
+LH_MIRROR_CHROOT="http://127.0.0.1:9999/debian/"
 
 # $LH_MIRROR_CHROOT_SECURITY: set security mirror to fetch packages from
 # (Default: http://security.debian.org/)
-LH_MIRROR_CHROOT_SECURITY="http://[::ffff:127.0.0.1]:3142/security.debian.org/"
+LH_MIRROR_CHROOT_SECURITY="http://security.debian.org/"
 
 # $LH_MIRROR_BINARY: set mirror which ends up in the image
 # (Default: http://ftp.us.debian.org/debian/)
-LH_MIRROR_BINARY="http://ftp.us.debian.org/debian/"
+LH_MIRROR_BINARY="http://ftp.de.debian.org/debian/"
 
 # $LH_MIRROR_BINARY_SECURITY: set security mirror which ends up in the image
 # (Default: http://security.debian.org/)
