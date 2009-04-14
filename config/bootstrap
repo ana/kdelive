@@ -18,7 +18,7 @@ LH_BOOTSTRAP_EXCLUDE=""
 
 # $LH_BOOTSTRAP_FLAVOUR: select flavour to use
 # (Default: standard)
-LH_BOOTSTRAP_FLAVOUR="standard"
+LH_BOOTSTRAP_FLAVOUR=""
 
 # $LH_BOOTSTRAP_KEYRING: set distribution keyring
 # (Default: empty)

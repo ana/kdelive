@@ -59,19 +59,18 @@ LH_HOSTNAME="debian"
 
 # $LH_ISO_APPLICATION: set iso author
 # (Default: Debian Live)
-LH_ISO_APPLICATION="Debian Live"
+LH_ISO_APPLICATION="Debian KDE"
 
 # $LH_ISO_PREPARER: set iso preparer
 # (Default: live-helper 1.0.1-4; http://packages.qa.debian.org/live-helper)
 LH_ISO_PREPARER="live-helper 1.0.1-4; http://packages.qa.debian.org/live-helper"
 
 # $LH_ISO_PUBLISHER: set iso publisher
-# (Default: Debian Live project; http://debian-live.alioth.debian.org/; debian-live@lists.debian.org)
-LH_ISO_PUBLISHER="Debian Live project; http://debian-live.alioth.debian.org/; debian-live@lists.debian.org"
+LH_ISO_PUBLISHER="Debian KDE; http://bakalacio.blogspot.com/; dpalacio@uninorte.edu.co"
 
 # $LH_ISO_VOLUME: set iso volume (max 32 chars)
 # (Default: Debian Live 20081218-22:14)
-LH_ISO_VOLUME="Debian Live 20081218-22:14"
+LH_ISO_VOLUME="Debian KDE 4.2 Live-CD"
 
 # $LH_JFFS2_ERASEBLOCK: set jffs2 eraseblock size
 # (Default: unset)

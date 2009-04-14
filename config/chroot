@@ -38,11 +38,11 @@ LH_LINUX_PACKAGES="linux-image-2.6 aufs-modules-2.6 squashfs-modules-2.6"
 
 # $LH_PACKAGES: set packages to install
 # (Default: empty)
-LH_PACKAGES="loop-aes-utils"
+LH_PACKAGES=""
 
 # $LH_PACKAGES_LISTS: set package list to install
 # (Default: standard standard-x11 kde4)
-LH_PACKAGES_LISTS="kde4 kde4-extras"
+LH_PACKAGES_LISTS=""
 
 # $LH_TASKS: set tasks to install
 # (Default: empty)

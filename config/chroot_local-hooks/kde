@@ -1,2 +1,2 @@
-apt-get install xorg-core dbus hal ntfs-3g
-apt-get install -t experimental kde4-minimal
+apt-get install --yes xserver-xorg dbus hal ntfs-3g
+apt-get install --yes xserver-xorg dbus hal ntfs-3g konqueror kde4-minimal kdegraphics kdenetwork kdegames kdebase-dbg kdebase-workspace-dbg

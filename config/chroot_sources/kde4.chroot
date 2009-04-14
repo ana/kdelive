@@ -1,3 +1,1 @@
-deb http://[::ffff:127.0.0.1]:3142/debian/ experimental main
-deb http://[::ffff:127.0.0.1]:3142/debian/ testing main
-
+deb http://localhost:3142/debian/ lenny main
